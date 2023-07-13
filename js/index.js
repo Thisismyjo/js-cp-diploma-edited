@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             let dayWeek = document.querySelectorAll(".page-nav__day-week");
             let dayList = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб']
             let allSeances = Array.from(document.querySelectorAll(".movie-seances__time"))
-            let numbers = document.querySelectorAll(".page-nav__day-number")
+            let numbers = Array.from(document.querySelectorAll(".page-nav__day-number"))
             
             let today = new Date();
             today.setHours(0, 0, 0, 0)
