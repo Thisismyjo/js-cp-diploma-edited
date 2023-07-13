@@ -9,7 +9,7 @@ cost.textContent = select.price
 
 let buttonAcception = document.querySelector(".acceptin-button")
 
-const hallConfig = select.hallConfiguration.replace(/conf-step__chair_selected/g, "conf-step__chair_taken");
+let hallConfig = select.hallConfiguration.replace(/conf-step__chair_selected/g, "conf-step__chair_taken");
 let params = `event=sale_add&timestamp=${select.timestamp}&hallId=${select.hallId}&seanceId=${select.idSeance}&hallConfiguration=${hallConfig}`
 
 buttonAcception.addEventListener("click", (e) => {
