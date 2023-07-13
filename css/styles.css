@@ -431,6 +431,17 @@ body {
   }
 }
 
+@media screen and (max-width: 575px) {
+  .movie .movie__description {
+    padding-left: 0;
+  }
+  
+  .conf-step__legend .col:first-of-type {
+    padding-right: 0.9rem;
+  }
+
+}
+
 /*================================================================*/
 
 .movie .movie-seances__hall .acceptin-button-disabled {
